@@ -6,11 +6,12 @@ body,html{
     min-height: 100%;
 }
 body{
-    /* background-image: url("IMG/bg.png"); */
     background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-color: #00c6fb;
+    color: rgb(166, 245, 228);
+    cursor:default;
 }
 nav>ul>li>a{
     text-decoration: none;
@@ -41,68 +42,39 @@ h1{
     text-align: center;
     color: rgb(166, 245, 228);
     font-size: 50px;
+    text-transform: capitalize;
 }
-img{
+h2{
+    position: relative;
+    top:10px;
+    left: 0px;
+    margin-bottom: 16em;
+    font-size: 2em;
+    text-transform: capitalize;
+    width: 88.4%;
+    border-radius: 2em;
+    padding-left: 30px;
+}
+.contain{
+    background-color: rgb(48 99 162);
+    height: 30em;
+    margin:3em;
+    border-radius: 50px;
+}
+ .tbn img{
     max-width: 205px;
     width :400px;
     max-height: 205px;
     display:inline-block;
     /* border: solid 1px #fff; */
 }
-.tbn{
+.tbn , .ic{
     position: relative;
     top: 45px;
     text-align: center;
     
 }
-.tbn .row1{
-    display: inline-block;
-    position: relative;
-    width: 18em;
-}
-.tbn .row2{
-    display: inline-block;
-    position: relative;
-    width: 18em;
-}
-.tbn .row3{
-    display: inline-block;
-    position: relative;
-    width: 18em;
-}
-.tbn .row4{
-    display: inline-block;
-    position: relative;
-    width: 18em;
-}
-.tbn .row5{
-    display: inline-block;
-    position: relative;
-    width: 18em;
-}
-.tbn .row6{
-    margin-top: 40px;
-    display: inline-block;
-    position: relative;
-    width: 18em;
-}
-.tbn .row7{
-    display: inline-block;
-    position: relative;
-    width: 18em;
-}
-.tbn .row8{
-    display: inline-block;
-    position: relative;
-    width: 18em;
-}
-.tbn .row9{
-    display: inline-block;
-    position: relative;
-    width: 18em;
-}
-
-.tbn a{
+.tbn a {
     display: inline-block;
     text-decoration: none;
      position: relative;
@@ -111,18 +83,88 @@ img{
     color: rgb(0, 0, 0);
 }
 /* its is a button */
-.tbn a {
+.tbn a{
     padding: 26px;
     background-image: linear-gradient( lime, green);
     border: solid 1px black;
     border-radius: 18px;
-    border-style:double;
     font-family: 'Otomanopee One', sans-serif;
+}
+.tbn .row1, .tbn .row2, .tbn .row3, .tbn .row4, .tbn .row5, .tbn .row7, .tbn .row8{display: inline-block;position: relative;width: 18em;}
+.tbn .row6{
+    margin-top: 40px;
+    display: inline-block;
+    position: relative;
+    width: 18em;
 }
 .tbn a:hover{
     background-image: linear-gradient( silver, rgb(117, 117, 117));
+    transform: scale(1.1);
+
 
 }
+nap{
+    position: absolute;
+    top: 130px;
+}
+/* armycamp css */
+.ic{
+    position: absolute;
+    top: 210px;
+    left: 80px;
+}
+.ic a {
+    text-transform: capitalize;
+}
+.ic img{
+    width: 16em;
+    max-width: 16em;
+    height: auto;
+
+}
+.ic .row1,.ic .row3{
+    display: inline-block;
+    position: relative;
+    width: 18em;
+    }
+.ic .row2{
+    display: inline-block;
+    position: relative;
+    width: 11em;
+}
+.ic .row3{
+    display: inline-block;
+    position: relative;
+    width: 10em;
+}
+.ic .row2 img{
+    width: 8em;
+    max-height: 10em;
+
+}
+.ic .row3 img{
+    width:8em;
+    max-height: 12.4em;
+}
+.ic a{
+    padding: 12px;
+    background-image: linear-gradient( lime, green);
+    border: solid 1px black;
+    border-radius: 12px;
+    font-family: 'Otomanopee One', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+     position: relative;
+    /* top: 30px; */
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+.ic a:hover{
+    background-image: linear-gradient( silver, rgb(117, 117, 117));
+    transform: scale(1.1);
+}
+/* ANDROID DEVICE COMPAITABLE */
 @media screen and (max-width: 800px) and (max-height: 1024px)
 {
     body,html{
@@ -130,9 +172,6 @@ img{
     }
     body{
         background-color: #00c6fb ;
-    /* background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
-    background-repeat:repeat;
-    background-size: cover; */
     }
     nav>ul>li> a{
         font-size: 15px;
@@ -169,7 +208,7 @@ img{
         display: inline-block;
         position: relative;
     }
-    img{
+    .tbn img{
         max-width: 150px;
         max-height: 150px;
         display: block;
@@ -188,3 +227,4 @@ img{
     }
 
 }
+
