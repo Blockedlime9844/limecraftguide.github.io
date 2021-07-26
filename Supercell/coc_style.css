@@ -45,6 +45,7 @@ h1{
     text-transform: capitalize;
 }
 h2{
+    color: rgb(255, 194, 80);
     position: relative;
     top:10px;
     left: 0px;
@@ -54,12 +55,6 @@ h2{
     width: 88.4%;
     border-radius: 2em;
     padding-left: 30px;
-}
-.contain{
-    background-color: rgb(48 99 162);
-    height: 30em;
-    margin:3em;
-    border-radius: 50px;
 }
  .tbn img{
     max-width: 205px;
@@ -108,7 +103,7 @@ nap{
     top: 130px;
 }
 /* armycamp css */
-.ic{
+/* .ic{
     position: absolute;
     top: 210px;
     left: 80px;
@@ -131,20 +126,23 @@ nap{
     display: inline-block;
     position: relative;
     width: 11em;
+    left: -40px;
+}
+.ic .row2 img{
+    
+    width: 8em;
+    max-height: 10em;
+
 }
 .ic .row3{
     display: inline-block;
     position: relative;
     width: 10em;
-}
-.ic .row2 img{
-    width: 8em;
-    max-height: 10em;
-
+    left: -40px;
 }
 .ic .row3 img{
-    width:8em;
-    max-height: 12.4em;
+    width:11.2em;
+    left: -40px;
 }
 .ic a{
     padding: 12px;
@@ -155,7 +153,7 @@ nap{
     display: inline-block;
     text-decoration: none;
      position: relative;
-    /* top: 30px; */
+    /* top: 30px; 
     text-align: center;
     color: rgb(0, 0, 0);
 
@@ -163,7 +161,7 @@ nap{
 .ic a:hover{
     background-image: linear-gradient( silver, rgb(117, 117, 117));
     transform: scale(1.1);
-}
+} */
 /* ANDROID DEVICE COMPAITABLE */
 @media screen and (max-width: 800px) and (max-height: 1024px)
 {
@@ -215,7 +213,8 @@ nap{
         padding: 0px;
     }
     .tbn a{
-        padding: 5px;
+        padding: 15px;
+    border-radius: 15px;
         font-size: 14px;
         display: inline-block;
         text-decoration: none;
@@ -224,6 +223,44 @@ nap{
         left: 80px;
         text-align: center;
         color: rgb(0, 0, 0);
+    }
+    h2{
+        font-size: 20px;
+    }
+    .contain{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .ic{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contain .ic img{
+        width: 10em;
+        max-width: 10em;
+        height: auto;
+    }
+    .ic .row1 img{
+        margin-left: 0;
+        position: relative;
+        padding:10px;
+        /* left: 120px; */
+
+    }
+    .ic .row2 img{
+        width: 4em;
+        max-height: 10em;
+        position: relative;
+        right: -80px;
+    }
+    .ic a{
+        padding: 10px;
+        border-radius: 12px;
+         position: relative;
+        top: 30px;
+        text-align: center;
+    
     }
 
 }

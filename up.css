@@ -1,0 +1,56 @@
+*{
+    cursor: default;
+}
+a{
+    cursor: pointer;
+}
+.gr1{
+    background:rgba(0, 0, 0, 0.342) url("IMG/gr1.jpg");
+    background-size:cover;
+    background-position: center;
+    background-blend-mode: darken;
+    width: 100%px;
+    height: 300px;
+}
+ .title{
+     padding-top:78px;
+  margin-top: 80px;
+  color:black ;
+}
+ .dis{
+     text-transform: capitalize;
+    color: cornsilk;
+
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.btn a{
+    text-decoration: none;
+    margin: 5px;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    background:rgba(0, 238, 40, 0.877);
+    background-blend-mode: darken;
+}
+
+.btn a:hover{
+    color: rgb(224, 55, 55);
+    /* background-color: #fff; */
+    transition: 0.3s ease-in;
+}
+/* border */
+/* .btn a{
+    border-top-color: rgb(38, 0, 255);
+    border-left-color: rgb(38, 0, 255);
+    border-bottom-color: rgb(200, 255, 0);
+    border-right-color: rgb(200, 255, 0);
+    /* border-style:; */
+        border-radius: 10%;
+} */
