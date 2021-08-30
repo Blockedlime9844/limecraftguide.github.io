@@ -1,3 +1,4 @@
+
 *{
     padding: 0px;
     margin: 0px;
@@ -12,8 +13,6 @@ body{
     background-color: #00c6fb;
     color: rgb(166, 245, 228);
     cursor:default;
-    font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
-    font-weight: bolder;
 }
 nav>ul>li>a{
     text-decoration: none;
@@ -59,7 +58,7 @@ h2{
     padding-left: 30px;
 }
 h3{
-    float:right;
+    text-align: center;
 }
 .contain{
     background-color: rgba(48, 99, 162, 0.678);
@@ -69,78 +68,107 @@ h3{
     border-radius: 50px;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    /* justify-content: center; */
+    justify-content: center;
 }
-.row{
-    max-width: 150px;
+span{
+    display: inline-flex;
+    margin: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card{
+    border: 2px solid black;
+    background-color: rgb(66 50 109);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.level{
+    width: 120px;
+    height: 180px;
     margin: 12px;
-    /* border: 1px solid black; */
     padding: 1px;
     aspect-ratio: 1/1;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    flex-flow: column-reverse;
-}
-    .row img{
-    max-width: 150px;
-height: auto;
-/* border: black solid 1px; */
-    }
-.row a {
-    text-decoration: none;
-    
+    flex-flow: row-reverse;
 }
 
-.row a p{
-    position: relative;
-    top: 30px;
-    font-family: 'Otomanopee One', sans-serif;
-    font-size: 13.7px;
-    justify-content: center;
-    padding: 12px;
-    background-image: linear-gradient( lime, green);
-    border: solid 1px black;
-    border-radius: 12px;
-    display: flex;
-    margin-bottom: 50px;
-    margin-left: 7px;
-    margin-right: 7px;
-    color: rgb(0, 0, 0);
-    text-transform: capitalize;
+.level img{
+    width: 120px;
+    padding-bottom: 10px;
 }
+table {
+    width: 430px;
+    border: 1px transparent solid;
 
-.row a p:hover{
-    background-image: linear-gradient( silver, rgb(117, 117, 117));
-    transform: scale(1.1);
-}
-/* ANDROID Stability */
-@media screen and (max-width:900px){ 
-nav ul li  a {
-    font-size: 15px;
-    padding: 8px;
 
 }
-h1{
-    margin-top: 20px;
+th{
     font-size: 30px;
 }
+.FS {
+    padding-left: 20px;
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.FD{
+    font-size: 14px;
+    color: rgb(60, 255, 76);
+}
+.ha{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(174, 0, 255);
+    border-radius: 40px;
+    margin: 12px;
+}
 
-    .contain{
-    margin: 20px;
-}
-.row img{
-    max-width: 90px;
-}
-.row a p{
-    font-family: 'Otomanopee One', sans-serif;
-    font-size: 10.7px;
-    padding: 12px;
-    margin-bottom: 50px;
-    margin-left: 7px;
-    margin-right: 7px;
-    text-transform: capitalize;
-}
 
+/* ANDROID Stability */
+@media screen and (max-width:900px){ 
+    
+
+.contain {
+    margin: 10px;
+}
+.level{
+    width: 60px;
+    height: 80px;
+    margin: 2px;
+    padding: 1px;
+}
+.FS {
+    padding-left: 2px;
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+.FD{
+    font-size: 10px;
+    color: rgb(60, 255, 76);
+
+}
+table {
+    width: 250px;
+    border: 1px transparent solid;
+}
+th{
+    font-size: 14px;
+}
+td{
+    font-size: 10px;
+}
+.ha{
+    text-align: center;
+    font-size: 15px;
+    background-color: rgb(174, 0, 255);
+    border-radius: 20px;
+    margin: 2px;
+   
+}
+.ha img {
+    width: 15px;
+}
 }
