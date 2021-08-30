@@ -101,10 +101,8 @@ span{
     padding-bottom: 10px;
 }
 table {
-    width: 430px;
+    width: 400px;
     border: 1px transparent solid;
-
-
 }
 th{
     font-size: 30px;
@@ -135,40 +133,46 @@ th{
     margin: 10px;
 }
 .level{
-    width: 60px;
-    height: 80px;
-    margin: 2px;
-    padding: 1px;
+    width: 84px;
+    height: 120px;
+    margin: 0px;
+    padding: 0px;
 }
 .FS {
     padding-left: 2px;
-    font-size: 10px;
+    font-size: 14px;
     padding-bottom: 5px;
 }
 .FD{
-    font-size: 10px;
-    color: rgb(60, 255, 76);
+    font-size: 14px;
+    color: rgb(1, 255, 1);
 
 }
 table {
-    width: 250px;
+    width: 309px;
     border: 1px transparent solid;
 }
 th{
-    font-size: 14px;
+    font-size: 30px;
 }
 td{
-    font-size: 10px;
+    font-size: 14px;
 }
 .ha{
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
     background-color: rgb(174, 0, 255);
     border-radius: 20px;
     margin: 2px;
    
 }
 .ha img {
-    width: 15px;
+    width: 20px;
+}
+nav a{
+    font-size: 16px;
+}
+h1{
+    font-size: 40px;
 }
 }
