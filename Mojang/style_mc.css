@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(img/7.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.heading{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+
+}
+.heading h1{
+	color: #fff;
+	font-size: 50px;
+}
+.title h1{
+	color: #fff;
+	font-size: 70px;
+	font-weight: bolder;
+}
+
+.button {
+	top: 62%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.bgn{
+	background-color: #41B43F;
+	border-style: solid ;
+	border-width: 3px ;
+	border-top-color: #ADEFAC;
+	border-left-color: #ADEFAC; 
+	border-right-color: #137312; 
+	border-bottom-color: #137312;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.bgn:hover,.bgn2:hover{
+	background-color:#113C10;
+		 border-top-color:#6B6C6B ;
+			border-left-color:#6B6C6B ; 
+			border-right-color:#113C10 ; 
+		border-bottom-color: #113C10;
+	color: #fff;
+	 padding-right: 45px;
+    padding-left: 45px;
+}
+.bgn2{
+	background-color: #41B43F;
+	border-style: solid ;
+	border-width: 3px ;
+	border-top-color: #ADEFAC;
+	border-left-color: #ADEFAC; 
+	border-right-color: #137312; 
+	border-bottom-color: #137312;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}

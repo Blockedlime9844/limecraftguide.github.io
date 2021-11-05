@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edition - Bedrock</title>
+    <link rel="stylesheet" href="Bedrock.css">
+	<link rel="stylesheet" href="../navigation.css">
+	<link rel="stylesheet" href="../sidebar.css">
+</head>
+<body>
+	<header class="home">
+		<div class="main">
+			<ul class="navigation">
+                
+				<li><a href="../index_mc.html">HOME</a></li>
+				<li><a href="#">Game Tuter</a></li>
+				<li><a href="#">Templates</a></li>
+				<li><a href="#">About Us</a></li>
+			</ul>
+		</div>
+	</header>
+	<!-- SIDEBAR -->
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn close" onclick="closeNav()">&times;</a>
+		<div class="butn">
+		<a href="../index_mc.html">Home</a>
+		<a href="#">Services</a>
+		<a href="#">Clients</a>
+		<a href="#">Contact</a>
+	</div>
+	  </div>
+	  <span style="font-size:20px;cursor:pointer" onclick="openNav()" id="hide">&#9776; </span>
+
+	 <!-- Navigaion Bar -->
+
+    
+<!-- Script -->
+<script>
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "250px";
+	  document.getElementById("hide").style.display = "none";
+
+	}
+	
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	  document.getElementById("hide").style.display = "";
+	}
+	</script>
+</body>
+</html>
